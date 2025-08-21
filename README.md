@@ -2,7 +2,7 @@
 
 # Stock Data Extractor (Browser Console CSV Export)
 
-This simple JavaScript utility script lets you extract stock position data from a web page (with a specific DOM structure) and download it as a CSV file directly from your browser console.
+This simple JavaScript utility script lets you extract stock position data from Robinhood Legend (It works only with Legend!) and download it as a CSV file directly from your browser console.
 
 ---
 
@@ -23,11 +23,12 @@ This simple JavaScript utility script lets you extract stock position data from 
 
 ## ⚙️ How to Use
 
-1. Open the web page containing your stock data.
-2. Open your browser's developer tools (`F12` or right-click → Inspect).
-3. Go to the **Console** tab.
-4. Paste the script in **code.js** and press **Enter**.
-5. A file named `stocks.csv` will be automatically downloaded.
+1. Open the web page containing your stock data https://robinhood.com/us/en/legend/
+2. Zoom out until all the stocks are visible on the left side of the screen. The script needs to read the stocks list, which is usually dynamically populated. If you zoom out, all stocks are visible at once.
+3. Open your browser's developer tools (`F12` or right-click → Inspect).
+4. Go to the **Console** tab.
+5. Paste the script in **code.js** and press **Enter**.
+6. A file named `stocks.csv` will be automatically downloaded.
 
 ---
 
